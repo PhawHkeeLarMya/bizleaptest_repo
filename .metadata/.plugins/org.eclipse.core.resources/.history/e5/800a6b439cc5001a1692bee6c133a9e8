@@ -1,0 +1,5 @@
+package com.bizleap.candidate.service.dao.impl;
+
+public class JobVacancyDaoImpl {
+
+}

@@ -1,0 +1,16 @@
+package com.bizleap.candidate.service.dao.impl;
+
+import com.bizleap.candidate.domain.Position;
+import com.bizleap.candidate.service.dao.PositionDao;
+import com.bizleap.commons.domain.exception.ServiceUnavailableException;
+
+public class PositionDaoImpl extends AbstractDaoImpl<Position, String> implements PositionDao {
+
+	protected PositionDaoImpl() {
+		super(Position.class);
+	}
+	
+	public void save(Position position) throws ServiceUnavailableException {
+		saveOrUpdate(position);
+	}	
+}

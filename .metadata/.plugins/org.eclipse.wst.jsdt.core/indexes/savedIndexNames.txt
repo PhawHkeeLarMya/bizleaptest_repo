@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\BizLeap-Candidate-Project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1366935905.index
+363494855.index
+1730264654.index
+2896829621.index
+2039612297.index
+3938987450.index
